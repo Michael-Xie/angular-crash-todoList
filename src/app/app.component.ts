@@ -9,11 +9,7 @@ export class AppComponent {
   name: string = 'Brad';
 
   constructor() {
-    console.log(123);
-    this.changeName("Ted");
   }
 
-  changeName(name: string) {
-    this.name = name;
-  }
+
 }
